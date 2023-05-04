@@ -18,12 +18,21 @@
     <ClCompile Include="mian.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="convertPngToBin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="convertPngsToBins.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="unistd.h">
+    <ClInclude Include="stb_image.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="stb_image.h">
+    <ClInclude Include="convertPngToBin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="convertPngsToBins.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

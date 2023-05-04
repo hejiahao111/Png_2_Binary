@@ -34,8 +34,8 @@ void convertBinsToPngs(const std::string& sourceFolderPath, const std::string& d
             inFile.read(reinterpret_cast<char*>(imageData), imageSize * imageSize * 3);
 
             // Convert the binary data to an image
-            auto image = stbi_write_png(destinationFolderPath + "/" + file.path().stem().string() + ".png",
-                imageSize, imageSize, 3, imageData, 0);
+             
+            auto image = stbi_write_png(destinationFolderPath.c_str()+ "/" + file.path().stem().string() + ".png", imageSize, imageSize, 3, imageData, 0);
             if (!image) {
                 std::cerr << "Failed to write image: " << file.path() << std::endl;
             }

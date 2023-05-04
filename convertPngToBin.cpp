@@ -1,8 +1,9 @@
+
 #include<iostream>
-#include"stb_image.h"
 #include<fstream>
 #include <filesystem>
 #include"convertPngToBin.h"
+#include"stb_image.h"
 
 bool convertPngToBin(const std::string& pngFilePath, const std::string& binFilePath)
 {

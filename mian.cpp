@@ -7,8 +7,8 @@
 // 将PNG文件转换为BIN文件
 int main()
 {
-    std::string sourceFolderPath = "D:/image/";
-    std::string destinationFolderPath = "D:/data";
+     std::string sourceFolderPath = "D:/image/";
+     std::string destinationFolderPath = "D:/data/";
     convertPngsToBins(sourceFolderPath, destinationFolderPath);
     return 0;
 }

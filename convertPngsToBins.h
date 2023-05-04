@@ -1,2 +1,2 @@
 #pragma once
-void convertPngsToBins() {}
+void convertPngsToBins(const std::string& sourceFolderPath, const std::string& destinationFolderPath);

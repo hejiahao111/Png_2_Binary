@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mian.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="convertPngToBin.cpp">
@@ -23,12 +23,6 @@
     </ClCompile>
     <ClCompile Include="convertPngsToBins.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="convertBinsToPngs.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="convertBinsToPngs.h">
-      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

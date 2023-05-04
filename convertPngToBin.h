@@ -1,2 +1,2 @@
 #pragma once
-bool convertPngToBin(){}
+bool convertPngToBin(const std::string& sourceFolderPath, const std::string& destinationFolderPath);

@@ -1,10 +1,9 @@
-
 #include<iostream>
 #include<fstream>
 #include <filesystem>
 #include"convertPngToBin.h"
 #include"stb_image.h"
-
+#include "stb_image_write.h"
 bool convertPngToBin(const std::string& pngFilePath, const std::string& binFilePath)
 {
     // 使用stb_image库加载PNG文件

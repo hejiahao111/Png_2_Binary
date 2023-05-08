@@ -1,9 +1,7 @@
-
 #include<iostream>
 #include<fstream>
 #include <filesystem>
 #include"convertPngToBin.h"
-#include"stb_image.h"
 // 批量将PNG文件转换为BIN文件
 void convertPngsToBins(const std::string& sourceFolderPath, const std::string& destinationFolderPath)
 {
